@@ -148,7 +148,8 @@ class KeyValueStorage {
 
     return {
       dbSize,
-      records
+      records,
+      updated: new Date().toISOString()
     }
   }
 }
